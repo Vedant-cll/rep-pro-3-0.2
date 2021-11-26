@@ -1,0 +1,34 @@
+body{
+    background-color: lightblue;
+    font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Road Rage', cursive;
+}
+h2{
+    color: black;
+    text-align: center;
+font-size: 50px;
+}
+p{
+    color: black;
+    font-size: 35px;
+}
+h3{
+    color: black;
+    font-size: 30px;
+}
+h4{
+    color: black;
+    font-size: 32px;
+}
+#div1{
+    background-color: rgb(82, 162, 189);
+    height: 50px;
+   text-align: center;
+}
+button{
+height: 59px;
+width: 169px;
+}
+#div2{
+    font-size: 30px;
+}

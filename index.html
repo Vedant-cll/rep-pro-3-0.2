@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Animal Sound Identifacation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Road+Rage&display=swap" rel="stylesheet">
+           
+</head>
+          
+<body>
+<div class="col-xs-12 header_div text-center">
+    <div id="div1">
+    <h2>Animal Sound Identifacation App</h2>
+</div>
+    <br><br>
+    <p>
+Note:Play different animal sounds like bark, meow, Moowing and Roar
+  </p>  
+</div>  
+<div class="main_div">
+<center>
+<br><br>
+
+<button  onclick="StartClassification();" class="btn btn-danger">Start Classification </button>
+<br><br>
+<h4 id="result_count"> </h4>
+<h3 id="result_label">I can hear</h3> 
+<br><br>
+
+<br>
+<img id="animal_image" src="listen.gif" width="300" height="300">
+<br><br>
+<div class="copy_right_footer">
+    <p>
+Developed By Vedant
+</p>
+</div></div> 
+</center>
+<script src="main.js"></script>
+</body>
+</html>
